@@ -8,4 +8,4 @@ app.config.from_object(env_config)
 @app.route("/")
 def index():
     secret = app.config.get('SECRET_KEY')
-    return f"This is my secret password: {secret}, but shhhh ...)"
+    return f"This is my secret password: {secret}, but shhhh ..."
